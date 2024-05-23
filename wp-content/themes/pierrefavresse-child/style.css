@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*
+Theme Name: pierrefavresse child
+Description: thème enfant du thème parent pierrefavresse (surcouche)
+Author: Olivier Delmas
+Author URI: https://github.com/Sol1de
+Text Domain: pierrefavresse-child
+Template: pierrefavresse
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* _____Header_____ */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 150px;
+  align-items: flex-start;
+}
+.header-logo {
+  object-fit: contain;
+}
+.header-nav ul {
+  display: flex;
+  gap: 14px;
+  text-decoration: none;
+}
+.header-nav ul li {
+  list-style: none;
+}
+.header-nav ul li a {
+  text-decoration: none;
+  color: #495057;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
