@@ -7,6 +7,8 @@ Author URI: https://github.com/Sol1de
 Text Domain: pierrefavresse-child
 Template: pierrefavresse
 */
+@import 'color.scss';
+
 * {
   margin: 0;
   padding: 0;
@@ -20,18 +22,6 @@ Template: pierrefavresse
   justify-content: space-between;
   padding: 12px 150px;
   align-items: flex-start;
-  $header-clr: #495057;
-  $title-clr: #495057;
-  $minimal-clr: #BAC0C6;
-  $main-clr: #6D758F;
-  $extra-light: 200;
-  $light: 300;
-  $regular: 400;
-  $medium: 500;
-  $semi-bold: 600;
-  $bold: 700;
-  $extrabold: 800;
-  $black: 900;
 
   &-logo {
     object-fit: contain;
@@ -43,6 +33,7 @@ Template: pierrefavresse
       display: flex;
       gap: 14px;
       text-decoration: none;
+      white-space: nowrap;
 
 
       li {
@@ -53,6 +44,50 @@ Template: pierrefavresse
           color: $header-clr;
           font-size: 16px;
           font-weight: $extra-light;
+        }
+      }
+    }
+  }
+}
+
+/* _____Footer_____ */
+.footer {
+  @extend .header;
+
+  &-logo {
+    @extend .header-logo;
+  }
+
+  &-container {
+    display: flex;
+    white-space: nowrap;
+
+    &-paragraph {
+      font-weight: $regular;
+      font-size: 16px;
+      color: #B4B9C9;
+    }
+
+    &-nav {
+      @extend .header-nav;
+  
+      ul {
+        gap: 0px;
+  
+        li {
+  
+          a {
+            color: $main-clr;
+            font-weight: $regular;
+            text-decoration: underline;
+          }
+  
+          span {
+            font-weight: $regular;
+            font-size: 16px;
+            padding-inline: 7px;
+            color: #B4B9C9;
+          }
         }
       }
     }

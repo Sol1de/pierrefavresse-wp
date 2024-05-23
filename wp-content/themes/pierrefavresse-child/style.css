@@ -15,28 +15,54 @@ Template: pierrefavresse
 }
 
 /* _____Header_____ */
-.header {
+.header, .footer {
   display: flex;
   justify-content: space-between;
   padding: 12px 150px;
   align-items: flex-start;
 }
-.header-logo {
+.header-logo, .footer-logo {
   object-fit: contain;
 }
-.header-nav ul {
+.header-nav ul, .footer-container-nav ul {
   display: flex;
   gap: 14px;
   text-decoration: none;
+  white-space: nowrap;
 }
-.header-nav ul li {
+.header-nav ul li, .footer-container-nav ul li {
   list-style: none;
 }
-.header-nav ul li a {
+.header-nav ul li a, .footer-container-nav ul li a {
   text-decoration: none;
   color: #495057;
   font-size: 16px;
   font-weight: 200;
+}
+
+/* _____Footer_____ */
+.footer-container {
+  display: flex;
+  white-space: nowrap;
+}
+.footer-container-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  color: #B4B9C9;
+}
+.footer-container-nav ul {
+  gap: 0px;
+}
+.footer-container-nav ul li a {
+  color: #6D758F;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.footer-container-nav ul li span {
+  font-weight: 400;
+  font-size: 16px;
+  padding-inline: 7px;
+  color: #B4B9C9;
 }
 
 
