@@ -1,6 +1,6 @@
 // selection/créer élements necessaires
-const phrase = document.querySelector(".landing-branding-texte")
-const cursor = document.querySelector(".landing-branding-cursor")
+const phrase = document.querySelector(".landing-branding-title-texte")
+const cursor = document.querySelector(".landing-branding-title-cursor")
 const liste = [
     "ARE DESIGNERS.",
     "ARE CRAFTSMEN.",

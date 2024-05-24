@@ -40,6 +40,55 @@ Template: pierrefavresse
   font-weight: 200;
 }
 
+/*_____Landing_____*/
+.landing {
+  height: 60dvh;
+}
+.landing-branding {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.landing-branding-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #495057;
+  font-size: 30px;
+}
+.landing-branding-title-we {
+  font-weight: 300;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 60px;
+}
+.landing-branding-title-texte {
+  font-weight: 300;
+  text-align: center;
+  font-size: 60px;
+}
+.landing-branding-title-cursor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1px;
+  height: 54px;
+  border-top: 2px solid #ADB5BD;
+  border-bottom: 2px solid #ADB5BD;
+  color: #ADB5BD;
+  padding-inline: 10px;
+  opacity: 1;
+  font-size: 60px;
+  font-weight: 200;
+}
+.landing-branding-subtitle-paragraph {
+  font-weight: 300;
+  font-size: 20px;
+  color: #BAC0C6;
+}
+
 /* _____Footer_____ */
 .footer-container {
   display: flex;
@@ -65,6 +114,34 @@ Template: pierrefavresse
   color: #B4B9C9;
 }
 
+/*_____Animations_____*/
+.animation-blink {
+  animation: cursorBlink 1.2s infinite;
+}
+
+.appear-animation {
+  animation: Appear 0.1s ease-in-out;
+}
+
+@keyframes cursorBlink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes Appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 
 /*# sourceMappingURL=style.css.map */

@@ -6,16 +6,20 @@
  *
  * @package pierrefavresse
  */
-
-get_header();
 ?>
 
 	<main id="primary" class="landing">
 
 		<div class="landing-branding">
-			<h1 class="landing-branding-we">WE</h1>
-			<h1 class="landing-branding-texte"></h1>
-			<span class="landing-branding-cursor">|</span>
+			<div class="landing-branding-title">
+				<h1 class="landing-branding-title-we">WE</h1>
+				<h1 class="landing-branding-title-texte"></h1>
+				<span class="landing-branding-title-cursor">|</span>
+			</div>
+
+			<div class="landing-branding-subtitle">
+				<h3 class="landing-branding-subtitle-paragraph">Design & Research Agency Paris</h3>
+			</div>
 		</div>
 
 		<div class="landing-projects">
