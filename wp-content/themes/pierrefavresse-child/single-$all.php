@@ -10,9 +10,17 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+	<main id="primary" class="landing">
 
-	<h1>Bonjour test reussis !</h1>
+		<div class="landing-branding">
+			<h1 class="landing-branding-we">WE</h1>
+			<h1 class="landing-branding-texte"></h1>
+			<span class="landing-branding-cursor">|</span>
+		</div>
+
+		<div class="landing-projects">
+			
+		</div>
 
 	</main><!-- #main -->
 
